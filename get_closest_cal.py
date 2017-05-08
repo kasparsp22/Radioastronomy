@@ -22,10 +22,7 @@ calib_dir   = './'
 calib_file  = 'lotss_targets.csv'
 
 targets = np.loadtxt(target_dir + target_file,skiprows=1, delimiter=',',dtype ='str'  )
-print targets
-calibr = np.loadtxt(calib_dir + calib_file,skiprows=1, delimiter=',',dtype ='str'  )
-print calibr
-print 111222222222333333333333333333333333
+calibr = np.loadtxt(calib_dir + calib_file,skiprows=1, delimiter=',',dtype ='str' )
 
 content = []
 targets_1 = []
@@ -36,8 +33,6 @@ for i in targets:       ### Removing 'deg' from lists
 for i in targets_1:
     for j in calibr:
         delta_dist_1 =abs(float(i[0])-float(j[0])) + abs(float(i[1]) - float(j[1]))   #### Calculete absoluted distance difference between target and calibratoe
-        #print delta_dist_1
-        #print delta_dist_1
         if delta_dist_1 < delta_dist_0:   ### Selecting calibrator with the lowest difference 
             delta_dist_0 = delta_dist_1
             calibrator =j[2]
@@ -45,13 +40,13 @@ for i in targets_1:
         "Target": i[2],
         "Calibrator": calibrator,   
               }      
-    #outdata['Target'].append(i[2])
     content.append(outdata)
-print '###############'
-print delta_dist_0
-print '###############'
-#print targets_1
-print '########################'
-#print content
 
+############### Returns output file ################
 
+outfile = open('targets_cals.txt','w')
+for item in content:
+    outfile.write("%s\n"%item)
+
+print 'Calibrators for targets found and "targets_cals.txt" created !!!!' 
+ 
