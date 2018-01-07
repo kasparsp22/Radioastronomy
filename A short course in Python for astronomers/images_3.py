@@ -22,7 +22,7 @@ print c
 np.savetxt("Jansky output.txt",c,fmt='%3.5f')
 
 # Finding two sources with smallest separation in declination
-# First I  get the min difference value (I do this way because I could not think of any other way :D)
+# First I get the min difference value (I do this way because I could not think of any other way :D)
 min_sep_val = np.min(abs(np.diff(c[:,1])))
 # Then I find the index of the first of those two elements
 index_arr_sep = np.where(abs(np.diff(c[:,1])) == min_sep_val)  # this produced index of two elements because there were 4 elements
