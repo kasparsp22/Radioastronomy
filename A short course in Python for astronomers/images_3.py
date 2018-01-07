@@ -26,7 +26,7 @@ np.savetxt("Jansky output.txt",c,fmt='%3.5f')
 min_sep_val = np.min(abs(np.diff(c[:,1])))
 # Then I find the index of the first of those two elements
 index_arr_sep = np.where(abs(np.diff(c[:,1])) == min_sep_val)  # this produced index of two elements because there were 4 elements
-                                         # with identical separation
+                                           # with identical separation
 
 print '\nMinimal seperation in declination between sources -> %f '%(min_sep_val)
 
