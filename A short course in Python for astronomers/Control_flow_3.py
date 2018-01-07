@@ -1,5 +1,6 @@
 
 # page_6  exercise_3
+
 # Write a program to generate a sequence of Fibonacci sequence (1,1,2,3,5,8....) stopping when the number gets to 1000
 
 n_min_1 = 0;
