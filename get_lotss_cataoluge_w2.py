@@ -68,7 +68,7 @@ def main():
     tb_out_0 = tb_sorted['raj2000','decj2000','ObsID'] 
     tb_out = tb_out_0['raj2000','decj2000']   ######### Array for finding duplicates
 
-    ########### Remove duplicats #################################
+    ########### Remove duplicates #################################
     tb_out_1 = np.array(tb_out)
     result=[idx for idx, item in enumerate(tb_out_1) if item in tb_out_1[:idx]]
     print len(result)
