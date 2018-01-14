@@ -1,7 +1,7 @@
 
 
-###########################################################
-#### Script finds closest calibrator to a given target ####
+################################################################
+#### Script that finds closest calibrator to a given target ####
 
 import numpy as np
 import astropy
