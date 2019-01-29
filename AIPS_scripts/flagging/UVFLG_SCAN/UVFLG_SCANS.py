@@ -123,7 +123,7 @@ print '  Doing SCANS %d - %d; flagging every %d SCAN ' %(start_scan, end_scan, i
 print >> lf, '  Doing SCANS %d - %d; flagging every %dth SCAN \n' %(start_scan, end_scan, interval)
 
 # Exporting DATADIR
-os.environ ["DATADIR"] = data_dir
+os.environ ["DATADIR"] = log_dir
 AIPS.userno = AIPS_user_number
 
 # Setting UVFLG known parameters
