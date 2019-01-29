@@ -1,0 +1,33 @@
+*************************************************************************
+
+  Started running UVFLG_SCANS version  1.0 on 02-Oct-18 at: 12:00:09 
+  Flagging source(s) 0631+5311 for antennas 1, 0. Reason -> LO_DROPOUT
+  All data will be applied to AIPS file 0635+5157_8. SPLAT FG table 1
+  Doing SCANS 34 - 260; flagging every 4th SCAN 
+
+  Flagging SCAN 34 with timerange 0 23 10 08 0 23 13 00
+  Flagging SCAN 38 with timerange 0 23 30 08 0 23 33 00
+  Flagging SCAN 42 with timerange 0 23 50 07 0 23 53 00
+  Flagging SCAN 46 with timerange 1 00 10 10 1 00 13 00
+  Flagging SCAN 50 with timerange 1 00 30 08 1 00 32 59
+  Flagging SCAN 54 with timerange 1 00 50 10 1 00 53 00
+  Flagging SCAN 58 with timerange 1 01 10 08 1 01 13 00
+  Flagging SCAN 62 with timerange 1 01 30 09 1 01 33 00
+  Flagging SCAN 66 with timerange 1 01 50 09 1 01 53 00
+  Flagging SCAN 70 with timerange 1 02 10 09 1 02 13 00
+  Flagging SCAN 74 with timerange 1 02 30 08 1 02 33 00
+  Flagging SCAN 78 with timerange 1 02 50 08 1 02 53 00
+  Flagging SCAN 82 with timerange 1 03 10 08 1 03 13 01
+  Flagging SCAN 86 with timerange 1 03 30 07 1 03 33 00
+  Flagging SCAN 90 with timerange 1 03 50 07 1 03 53 00
+  Flagging SCAN 94 with timerange 1 04 10 10 1 04 13 00
+  Flagging SCAN 98 with timerange 1 04 30 09 1 04 33 00
+  Flagging SCAN 102 with timerange 1 04 50 07 1 04 53 00
+  Flagging SCAN 106 with timerange 1 05 10 10 1 05 13 00
+  Flagging SCAN 110 with timerange 1 05 30 10 1 05 33 00
+  Flagging SCAN 114 with timerange 1 05 50 09 1 05 53 00
+  Different source (1331+305) found in SCAN 116!! Stopping flagging here!
+
+*************************************************************************
+
+
